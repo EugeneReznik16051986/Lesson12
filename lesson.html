@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form action="http://nickblack.pro/send.php" method="POST">
+        <fieldset>
+                    <legend style="font-size: 21px"><b>Контактная информация</b></legend>
+
+                    <p>
+                        <label for="name">
+                            Имя
+                            <input type="text" name="fname" id="name" required>
+                        </label>
+                    </p>
+
+                    <p>
+                        <label for="last-name">
+                            Фамилия
+                            <input type="text" name="sname" id="sname">
+                        </label>
+                    </p>
+
+                    <p>
+                        <label for="age">
+                            Возраст
+                            <input type="number" name="age"  id="age">
+                        </label>
+                     </p>
+
+                    <p>
+                        <label for="mail">
+                            Почта
+                            <input type="email" name="mail" id="mail">
+                        </label>
+                    </p>
+
+                    <p>
+                        <label for="bday">
+                            Дата рождения
+                            <input type="date" name="bday" id="bday">
+                        </label>
+                    </p>
+
+                    <p>
+                        <label for="phone">
+                            Телефон:
+                            <input type="text" name="phone" id="phone" required placeholder="+380-00-000-0000">
+                        </label>
+                    </p>
+    
+                    <p>
+                        <label for="mymail">
+                            E-mail получателя
+                            <input type="email" name="mymail" id="mymail" required readonly value="maynard1605@gmail.com">
+                        </label>
+                    </p>
+
+                    <p>
+                        <input type="submit" id="button" value="Отослать">
+                    </p>
+        </fieldset>
+    </form>
+
+</body>
+</html>
